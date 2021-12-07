@@ -16,6 +16,7 @@
         "drupal/address": "^1.9",
         "drupal/core-composer-scaffold": "^8.8.1",
         "drupal/core-recommended": "^8.8",
+        "drupal/gin": "^3.0",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "^8.4.5",
         "pantheon-systems/drupal-integrations": "^8",
@@ -40,7 +41,7 @@
     "conflict": {
             "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "classmap": [
